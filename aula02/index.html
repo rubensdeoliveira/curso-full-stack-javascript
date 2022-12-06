@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <h1 id="titulo-principal">Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, impedit?</p>
+    <h2>Subtitulo 1</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, impedit?</p>
+    <h3>Subtitulo 2</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, impedit?</p>
+    <h4>Subtitulo 3</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, impedit?</p>
+    <h5>Subtitulo 4</h5>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, impedit?</p>
+    <h6>Subtitulo 5</h6>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, impedit?</p>
+      
+
+    <!-- começo do titulo + imagem 1 -->
+    <div>
+      <h2>Imagem do bufalo 1</h2>
+      <img width="500" height="500" alt="Bufalo no pasto com uma corda saindo do nariz" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Bubalus_bubalis_Philippines.jpg/1200px-Bubalus_bubalis_Philippines.jpg" />
+    </div>
+    <!-- fim do titulo + imagem 1 -->
+
+    <!-- começo do titulo + imagem 2 -->
+    <div>
+      <h2>Imagem do bufalo 2</h2>
+      <img width="500" height="500" alt="Casal de bufalos um ao lado do outro em uma regiāo deserta" src="/imgs/bufalo.jpeg" />
+    </div>
+    <!-- fim do titulo + imagem 2 -->
+
+    <div>
+      <a href="https://google.com">Navegar para Google na mesma aba</a>
+      <a href="https://google.com" target="_blank">Navegar para Google em outra aba</a>
+      <a href="#titulo-principal">Navegar para o primeiro subtitulo</a>
+    </div>
+
+    <div>
+      <strong>Texto em negrito com a tag strong</strong>
+      <em>Texto em italico com a tag em</em>
+    </div>
+
+    <p>Esse texto vai ter uma palavra com a cor <span>vermelha</span> utilizando a tag span</p>
+
+    <p>A <abbr title="Universidade Federal do Rio Grande do Norte">UFRN</abbr> é legal</p>
+
+    <div>
+      o elemento hr abaixo cria uma linha atravessando um container
+      <hr />
+    </div>
+
+    <div>
+      Esse texto esta separado do texto abaixo com uma tag BR
+      <br />
+      Esse texto esta separado do texto acima com uma tag BR
+    </div>
+
+    <q>essa Citaçāo foi feita com a tag q</q>
+
+    <code>Código usando a tag code</code>
+
+    <table><caption>Phone numbers</caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th colspan="2">Phone</th>
+          <th colspan="2">Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>84 988950604</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Jack</td>
+          <td>84 949494949</td>
+          <td>26</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Personal</td>
+          <td>Personal</td>
+          <td>Office</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <ul>
+      <li>First</li>
+      <li>Second</li>
+      <li>Third</li>
+    </ul>
+
+    <form action="/action.php" method="post">
+      Name: <input name="name" type="text" placeholder="Nome" /> <br /> 
+      Age: <input max="99" min="1" name="age" step="2" type="number" value="34" /> <br />
+      <select name="gender">
+        <option value="" disabled selected>Selecione uma opçāo</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select><br /> 
+      <input checked="checked" name="newsletter" type="radio" value="daily" /> Daily <input name="newsletter" type="radio" value="weekly" /> Weekly<br />
+      <textarea cols="200" name="comments" rows="20">Comment</textarea><br />
+      <label><input name="terms" type="checkbox" value="tandc" />Accept terms</label> <br />
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

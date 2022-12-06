@@ -1,0 +1,32 @@
+.title-one {
+  color: red;
+}
+
+.title-one:selected {
+  color: yellow;
+}
+
+.title-two {
+  color: blue;
+}
+
+.title-with-border {
+  border: 10px solid purple;
+}
+
+.div-two {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+}
+
+.div-three {
+  width: 100px;
+  height: 100px;
+  background: green;
+}
+
+.div-two + .div-two {
+  margin-top: 100px;
+}
