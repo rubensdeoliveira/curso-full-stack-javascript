@@ -1,11 +1,10 @@
 // Typeof
+const firstName = 'José'
+const age = 27
+const height = 1.75
+const isMale = true
 
-const nome = 'José'
-const idade = 27
-const altura = 1.75
-const ehNovo = true
-
-console.log(typeof nome)
-console.log(typeof idade)
-console.log(typeof altura)
-console.log(typeof ehNovo)
+console.log(typeof firstName)
+console.log(typeof age)
+console.log(typeof height)
+console.log(typeof isMale)

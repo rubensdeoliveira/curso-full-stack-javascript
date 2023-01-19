@@ -2,4 +2,4 @@
 
 // ex: node exemplo00.js
 
-// Extensāo Code runner também é útil para o mesmo fim
+// Extensāo Code runner também é útil para o mesmo fim (crtl + alt + n)

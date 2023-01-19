@@ -5,7 +5,7 @@ const idade2 = 14.0
 const idade3 = 14.1
 const idade4 = Number('14')
 const idade5 = Number('14.0')
-const idade6 = Number('14.1')
+const idade6 = Number('14.1') 
 
 console.log(idade1, typeof idade1, Number.isInteger(idade1))
 console.log(idade2, typeof idade2, Number.isInteger(idade2))

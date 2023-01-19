@@ -1,11 +1,11 @@
 // Dados
 
-var nome = 'José'
-var idade = 27
-var altura = 1.75
-var ehNovo = true
+var firstName = 'José' 
+var age = 27    
+var height = 1.75 
+var isMale = true
 
-console.log(nome)
-console.log(idade)
-console.log(altura)
-console.log(ehNovo)
+console.log(firstName)
+console.log(age)
+console.log(height)
+console.log(isMale)
