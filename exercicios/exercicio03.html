@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Exercício 3</title>
+    <script>
+      const idadeMinimaPermitidaParaVotar = 16
+      const idadeMinimaObrigatoriaParaVotar = 18
+      const idadeMaximaObrigatoriaParaVotar = 65
+      const idade = prompt("Informe sua idade", "20");
+      if(idade >= idadeMinimaPermitidaParaVotar && idade < idadeMinimaObrigatoriaParaVotar){
+        alert('Seu voto é facultativo devido você ser jovem demais para ser obrigado a votar')
+      } else if(idade > idadeMaximaObrigatoriaParaVotar){
+        alert('Seu voto é facultativo devido você já ter idade suficiente para nāo ser obrigado a votar')
+      } else if(idade >= idadeMinimaObrigatoriaParaVotar && idade <= idadeMaximaObrigatoriaParaVotar){
+        alert('Seu voto é obrigatorio')
+      } else {
+        alert('Você nāo pode votar')
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Exercício 3</h1>
+  </body>
+</html>

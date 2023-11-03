@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Exercício 4</title>
+    <script>
+      const idadeMinimaPermitidaParaVotar = 16
+      const idadeMinimaPermitidaParaDirigir = 18
+      const idadeMinimaPermitidaParaAposentarQuandoMasculino = 65
+      const idadeMinimaPermitidaParaAposentarQuandoFeminino = 61
+      const idadeMinimaPermitidaParaViajar = 16
+      const idade = prompt("Informe sua idade");
+      const genero = prompt("Informe seu genero"); //masculino //feminino
+      if(idade >= idadeMinimaPermitidaParaVotar){
+        alert('Você tem permissao para votar')
+      }  
+      if(idade >= idadeMinimaPermitidaParaDirigir){
+        alert('Você tem permissao para dirigir')
+      } 
+      // if(idade >= idadeMinimaPermitidaParaAposentarQuandoMasculino && genero === 'masculino'){
+      //   alert('Você tem idade para se aposentar')
+      // } else if(idade >= idadeMinimaPermitidaParaAposentarQuandoFeminino && genero === 'feminino') {
+      //   alert('Você tem idade para se aposentar')
+      // }
+      if
+      (
+        (idade >= idadeMinimaPermitidaParaAposentarQuandoMasculino && genero === 'masculino') || 
+        (idade >= idadeMinimaPermitidaParaAposentarQuandoFeminino && genero === 'feminino')
+      ) {
+        alert('Você tem idade para se aposentar')
+      } 
+      if(idade >= idadeMinimaPermitidaParaViajar){
+        alert('Você tem permissao para viajar')
+      } 
+    </script>
+  </head>
+  <body>
+    <h1>Exercício 4</h1>
+  </body>
+</html>
